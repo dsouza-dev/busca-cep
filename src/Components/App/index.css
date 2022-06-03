@@ -1,0 +1,46 @@
+Input {
+    border: 2px solid black;
+    position: absolute;
+    top: 125px;
+    right: 500px; 
+    display: flex;
+    margin: 0 auto;
+    width: 350px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+Button {
+    border: 2px solid black;
+    position: absolute;
+    top: 125px;
+    right: 463px;
+    height: 33.5px;
+    width: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 7px;
+}
+
+Button:hover {
+    border: 3px solid black;
+}
+
+::-webkit-input-placeholder  { color:#000; font-style: oblique;}
+
+.nonResult {
+    margin: 50px auto;
+    max-width: 700px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    
+}
+
+.nonResult h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
